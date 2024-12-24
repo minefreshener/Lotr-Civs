@@ -50,7 +50,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "The White City",
 		"uniqueText": "Workers improve tiles 25% faster, [+15]% [Food] [in capital], [+15]% [Culture] [in capital]",
-		"uniques": ["[-25]% construction time for [All] improvements", "[+15]% [Food] [in capital]", "[+15]% [CUlture] [in capital]"],
+		"uniques": ["[-25]% construction time for [All] improvements", "[+15]% [Food] [in capital]", "[+15]% [Culture] [in capital]"],
 		"cities": ["Minas Tirith","Osgiliath","Ithilien","Cair Andros","Henneth Annun","Anfalas","Morthond","Ringlo Vale","Andrast","Linhir","Tarnost","Ethring"]
 	},
 				{
