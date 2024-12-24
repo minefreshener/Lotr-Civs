@@ -1,25 +1,49 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"name": "Minas Tirith",
+		"replaces": "Palace",
+		"uniqueTo": "Anorien",
+		"production": 4,
+		"science": 4,
+		"gold": 4,
+		"culture": 5,
+		"cost": 0,
+		"cityStrength": 10,
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"uniques": ["Indicates the capital city", "[+15]% [Production] [in this city] <during We Love The King Day>", "[+15]% [Gold] [in this city] <during We Love The King Day>", "Destroyed when the city is captured"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Rammas Echor",
+		"uniqueTo": "Anorien",
+		"cost": 1000,
+		"culture": 4,
+		"cityHealth": 60,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Walls] is constructed in all [non-[Puppeted]] cities>", "[-50]% Unhappiness from [Population] [in this city]", "Cost increases by [15] per owned city"],
+		"requiredTech": "Guilds"
+	},
+		{
+		"name": "Edoras",
+		"replaces": "Palace",
+		"uniqueTo": "Rohan",
+		"production": 2,
+		"science": 2,
+		"gold": 4,
+		"culture": 5,
+		"cost": 0,
+		"cityStrength": 5,
+		"isNationalWonder": true,
+		"uniques": ["Indicates the capital city", "Provides [2] [Horses]", "[+15]% [Production] [in this city] <during We Love The King Day>", "[+15]% [Culture] [in this city] <during We Love The King Day>", "Destroyed when the city is captured"]
+	},
+		{
+		"name": "Barrow",
+		"replaces": "Temple",
+		"uniqueTo": "Rohan",
+		"maintenance": 0,
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"],
+		"faith": 1,
+		"culture": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Pottery"
 	}
 ]
