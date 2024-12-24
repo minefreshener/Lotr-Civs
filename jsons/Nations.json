@@ -1,38 +1,83 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"name": "Rohan",
+		"leaderName": "Theoden",
+		"adjective": ["Rohirric"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "Hi Theoden, master of the horses !",
+		"startIntroPart2": "You have awaken from your long slumber, and now the rohirrim are counting on you to lead them to a brighter tomorrow. Your neighbours won't leave you much room for peace and you may have to carve your peace with the tip of the spear. But, thanks to your leadership, Rohan might become strong enough to tip the scale in a war between Gondor and Mordor, who knows ?",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": "We ride to war!!",
+		"attacked": "I see, we will gather the Rohirrim for war.",
+		"defeated": "It is over but I shall not be ashamed.",
+		"introduction": "I am Theoden, King of Rohan!",
 		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
-
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [2, 112, 11],
+		"innerColor": [224, 218, 157],
+		"uniqueName": "Muster the Rohirrim",
+		"uniqueText": "Starts with Animal Husbandry. +1 Movement for all Mounted units, double quantity of Horses and Horses provide +1 Culture."
+		"uniques": ["Starts with [Animal Husbandry]","[+1] Movement <for [Mounted] units>","Double quantity of [Horses] produced","[+1 Culture] from every [Horses]"],
+		"cities": ["Edoras","Helm's Deep","Snowbourn","Aldburg","Dunharrow","Grimslade","Eastemnet","Eastfold","Westemnet","Westfold","The Wold","West-March","Minhiriath","Meduseld","Framsburg"]
+	},
+			{
+		"name": "Anorien",
+		"leaderName": "Aragorn",
+		"adjective": ["Anorien"]
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hi Aragorn, heir to the ancient kings !",
+		"startIntroPart2": "You have come back to the ivory tower to lead your people against their many foes. The ancient evil is rising in the east, but danger may also com from the south and the haradrim or the north from the easterlings, the dwarves or even the elves. Will your allies in Rohan be ready to answer the call or will they be too occupied with Isengard ? Only you can now save and rebuild a strong and safe Gondor nation and... who knows, maybe reunite Gondor and Arnor ?",
+		
+		"declaringWar": "For the White City!",
+		"attacked": "The light of the West will prevail from this agression !",
+		"defeated": "It is over, will the light disappear from Middle Earth ?",
+		"introduction": "I am Aragorn Elessar, heir of Isildur!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [1, 0, 84],
+		"innerColor": [255,255,255],
+		"uniqueName": "The White City",
+		"uniqueText": "Workers improve tiles 25% faster, [+15]% [Food] [in capital], [+15]% [Culture] [in capital]",
+		"uniques": ["[-25]% construction time for [All] improvements", "[+15]% [Food] [in capital]", "[+15]% [CUlture] [in capital]"],
+		"cities": ["Minas Tirith","Osgiliath","Ithilien","Cair Andros","Henneth Annun","Anfalas","Morthond","Ringlo Vale","Andrast","Linhir","Tarnost","Ethring"]
+	},
+				{
+		"name": "Isengard",
+		"leaderName": "Saruman",
+		"adjective": ["Isengard"]
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hi Saruman, Leader of the mighty Istari",
+		"startIntroPart2": "After hundreds of years, the evil power of the east is returning and this time, good intentions won't be enough to stop it. As the leader of the Istari, sent from the West, you alone could even dream of facing him. But do you have the strengh you need or do you need to carve yourself a great empire before facing leading the offensive ? History will decide.",
+		
+		"declaringWar": "A new power is rising!",
+		"attacked": "So you have chosen... death.",
+		"defeated": "Save your pity and your mercy, I have no use for it!",
+		"introduction": "I am Saruman!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Yes?!",
+		
+		"tradeRequest": "Want to trade?",
+				
+		"outerColor": [64, 64, 64],
+		"innerColor": [255,255,255],
+		"uniqueName": "The Voice of Saruman",
+		"uniqueText": "67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment. +25% Production towards Land units in capital"
+		"uniques": ["When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","[+25]% Production when constructing [Land] units [in capital]"],
+		"cities": ["Nan Curunir","Angrenost","Fords of Isen","Dol Baran","Methedras","Adorn","Wellinghall","Dunbog","Starkmoor","Pren Gwydh","Bonevales","Ral Methedras","Derndingle"]
 	}
 ]
