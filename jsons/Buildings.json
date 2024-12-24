@@ -9,6 +9,7 @@
 		"culture": 5,
 		"cost": 0,
 		"cityStrength": 10,
+		"cityHealth": 20,
 		"isNationalWonder": true,
 		"uniques": ["Indicates the capital city", "[+15]% [Production] [in this city] <during We Love The King Day>", "[+15]% [Gold] [in this city] <during We Love The King Day>", "Destroyed when the city is captured"]
 	},
@@ -32,6 +33,7 @@
 		"culture": 5,
 		"cost": 0,
 		"cityStrength": 5,
+		"cityHealth": 10,
 		"isNationalWonder": true,
 		"uniques": ["Indicates the capital city", "Provides [2] [Horses]", "[+15]% [Production] [in this city] <during We Love The King Day>", "[+15]% [Culture] [in this city] <during We Love The King Day>", "Destroyed when the city is captured"]
 	},
@@ -45,5 +47,31 @@
 		"culture": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Pottery"
+	},
+		{
+		"name": "Orthanc",
+		"replaces": "Palace",
+		"uniqueTo": "Isengard",
+		"production": 5,
+		"science": 5,
+		"gold": 3,
+		"culture": 2,
+		"cost": 0,
+		"cityStrength": 10,
+		"cityHealth": 20,
+		"isNationalWonder": true,
+		"uniques": ["Indicates the capital city", "[+33]% [Production] [in this city] <during We Love The King Day>", "[+33]% [Gold] [in this city] <during We Love The King Day>"]
+	},
+		{
+		"name": "Forges Of Orthanc",
+		"replaces": "Ironworks",
+		"uniqueTo": "Isengard",
+		"cost": 200,
+		"percentStatBonus": {"production": 50},
+		"production": 3,
+		"greatPersonPoints": {"Great Engineer": 4},
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [20] per owned city", "[+2 Production] from [Lumber Mill] tiles [in this city]",],
+		"requiredTech": "Machinery"
 	}
 ]
